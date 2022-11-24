@@ -1,0 +1,43 @@
+[0.717s] Invoking command in '/root/ros2_ws/src/mypkg': PYTHONPATH=/root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /root/ros2_ws/src/mypkg/build/mypkg/build install --prefix /root/ros2_ws/src/mypkg/install/mypkg --record /root/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.958s] running egg_info
+[0.959s] creating build/mypkg/mypkg.egg-info
+[0.959s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.960s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.960s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.961s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.961s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.961s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.962s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.963s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.964s] running build
+[0.964s] running build_py
+[0.964s] creating /root/ros2_ws/src/mypkg/build/mypkg/build
+[0.964s] creating /root/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.964s] creating /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.964s] copying mypkg/talker.py -> /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.964s] copying mypkg/listener.py -> /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.964s] copying mypkg/__init__.py -> /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.965s] running install
+[0.965s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.965s]   warnings.warn(
+[0.965s] running install_lib
+[0.966s] creating /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.966s] copying /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.966s] copying /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.966s] copying /root/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.967s] byte-compiling /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[0.967s] byte-compiling /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.967s] byte-compiling /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[0.968s] running install_data
+[0.968s] creating /root/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.968s] creating /root/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.968s] creating /root/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.968s] copying resource/mypkg -> /root/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.969s] copying package.xml -> /root/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.969s] running install_egg_info
+[0.970s] Copying build/mypkg/mypkg.egg-info to /root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.971s] running install_scripts
+[0.996s] Installing listener script to /root/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.996s] Installing talker script to /root/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.996s] writing list of installed files to '/root/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.025s] Invoked command in '/root/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/root/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /root/ros2_ws/src/mypkg/build/mypkg/build install --prefix /root/ros2_ws/src/mypkg/install/mypkg --record /root/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
