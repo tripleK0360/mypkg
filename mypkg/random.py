@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Koki Ikeda 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
+
 import rclpy
 import random
 from rclpy.node import Node
